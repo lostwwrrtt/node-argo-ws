@@ -955,7 +955,7 @@ const server = http.createServer((req, res) => {
     fs.readFile(indexPath, (err, data) => {
       if (err) {
         res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
-        res.end('VLESS+WS Proxy is running\n');
+        res.end('hello world\n');
       } else {
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
         res.end(data);
