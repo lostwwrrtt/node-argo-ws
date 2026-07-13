@@ -10,7 +10,7 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "hpack": "^1.4.1",
+    "hpack": "latest",
     "uuid": "^9.0.1",
     "ws": "^8.18.0"
   },
